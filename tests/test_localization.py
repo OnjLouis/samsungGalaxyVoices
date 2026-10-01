@@ -20,7 +20,7 @@ class LocalizationTests(unittest.TestCase):
 	def test_each_translated_module_initializes_its_own_catalog(self):
 		for relative in (
 			"globalPlugins/samsungGalaxyVoices.py",
-			"globalPlugins/_signedWebUpdater.py",
+			"globalPlugins/_samsungGalaxyUpdater.py",
 			"synthDrivers/samsungGalaxyVoices.py",
 		):
 			with self.subTest(module=relative):

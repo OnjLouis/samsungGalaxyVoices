@@ -39,6 +39,15 @@
 <p>The Samsung Galaxy Voices panel contains a Check for add-on updates setting with Never, Hourly, and Daily choices. Daily is the default for new installations. Check Now performs an immediate manual check. Update files and their manifests must pass cryptographic signature, package identity, version, size, and SHA-256 checks before NVDA will install them.</p>
 <p>This schedule controls add-on updates. Voice packages are updated only when the user selects Download or update in the voice manager.</p>
 
+<h2>Updating Older Samsung Add-ons</h2>
+<p>If both Samsung Galaxy Voices and Samsung TV Voices are installed with versions older than Galaxy 1.1.5 and TV 1.0.4, their update buttons may check or install the other add-on. Download the latest <code>.nvda-addon</code> package from each project's GitHub Releases page, install both through NVDA's add-on manager, and restart NVDA. You do not need to remove or download your installed voices again. After this one-time update, each panel checks only its own add-on.</p>
+
+<h2>Changes in 1.1.5</h2>
+<ul>
+<li>Fixed an updater conflict when Samsung Galaxy Voices and Samsung TV Voices are both installed, which could make an update button offer or install the other add-on.</li>
+<li>Kept installed voices and settings unchanged and added instructions for updating affected older installations.</li>
+</ul>
+
 <h2>Changes in 1.1.4</h2>
 <ul>
 <li>Added Simplified Chinese interface and manual translations, contributed by Alan86024. Merged Pull Request <a href="https://github.com/OnjLouis/samsungGalaxyVoices/pull/9">9</a>.</li>

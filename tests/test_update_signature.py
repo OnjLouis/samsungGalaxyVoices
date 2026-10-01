@@ -8,7 +8,7 @@ from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULE = ROOT / "addon" / "globalPlugins" / "_signedWebUpdater.py"
+MODULE = ROOT / "addon" / "globalPlugins" / "_samsungGalaxyUpdater.py"
 MANIFEST = ROOT / "tests" / "fixtures" / "signed-test-manifest.json"
 sys.path.insert(0, str(ROOT / "addon"))
 

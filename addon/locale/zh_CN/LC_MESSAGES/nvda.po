@@ -14,37 +14,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: globalPlugins/_signedWebUpdater.py:110
+#: globalPlugins/_samsungGalaxyUpdater.py:110
 msgid "An update check is already running."
 msgstr "检查更新已在运行。"
 
-#: globalPlugins/_signedWebUpdater.py:110 globalPlugins/samsungGalaxyVoices.py:350
+#: globalPlugins/_samsungGalaxyUpdater.py:110 globalPlugins/samsungGalaxyVoices.py:350
 #: synthDrivers/samsungGalaxyVoices.py:436
 msgid "Samsung Galaxy Voices"
 msgstr "三星 Galaxy 语音"
 
-#: globalPlugins/_signedWebUpdater.py:131
+#: globalPlugins/_samsungGalaxyUpdater.py:131
 msgid "Samsung Galaxy Voices is up to date."
 msgstr "三星 Galaxy 语音已是最新。"
 
-#: globalPlugins/_signedWebUpdater.py:131
+#: globalPlugins/_samsungGalaxyUpdater.py:131
 msgid "No update available"
 msgstr "无可用更新"
 
-#: globalPlugins/_signedWebUpdater.py:135
+#: globalPlugins/_samsungGalaxyUpdater.py:135
 msgid "Unable to check for updates right now."
 msgstr "现在无法检查更新。"
 
-#: globalPlugins/_signedWebUpdater.py:135
+#: globalPlugins/_samsungGalaxyUpdater.py:135
 msgid "Update check failed"
 msgstr "检查更新失败"
 
-#: globalPlugins/_signedWebUpdater.py:142
+#: globalPlugins/_samsungGalaxyUpdater.py:142
 #, python-brace-format
 msgid "Samsung Galaxy Voices {version} is available."
 msgstr "三星 Galaxy 语音 {version} 已可用。"
 
-#: globalPlugins/_signedWebUpdater.py:145
+#: globalPlugins/_samsungGalaxyUpdater.py:145
 msgid ""
 "\n"
 "\n"
@@ -54,27 +54,27 @@ msgstr ""
 "\n"
 "要现在安装吗？NVDA 将在安装后重新启动。"
 
-#: globalPlugins/_signedWebUpdater.py:146
+#: globalPlugins/_samsungGalaxyUpdater.py:146
 msgid "Update available"
 msgstr "更新可用"
 
-#: globalPlugins/_signedWebUpdater.py:177
+#: globalPlugins/_samsungGalaxyUpdater.py:177
 msgid "The update could not be downloaded or verified."
 msgstr "无法下载或验证更新。"
 
-#: globalPlugins/_signedWebUpdater.py:177 globalPlugins/_signedWebUpdater.py:207
+#: globalPlugins/_samsungGalaxyUpdater.py:177 globalPlugins/_samsungGalaxyUpdater.py:207
 msgid "Update failed"
 msgstr "更新失败"
 
-#: globalPlugins/_signedWebUpdater.py:203
+#: globalPlugins/_samsungGalaxyUpdater.py:203
 msgid "The update is ready. NVDA will now restart."
 msgstr "更新已准备就绪。NVDA 现在将重新启动。"
 
-#: globalPlugins/_signedWebUpdater.py:203
+#: globalPlugins/_samsungGalaxyUpdater.py:203
 msgid "Update complete"
 msgstr "更新完成"
 
-#: globalPlugins/_signedWebUpdater.py:207
+#: globalPlugins/_samsungGalaxyUpdater.py:207
 msgid "The update could not be installed."
 msgstr "无法安装更新。"
 

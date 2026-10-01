@@ -1,5 +1,5 @@
 # license: GPL-2.0-or-later
-"""Signed GitHub release updater used by Samsung Galaxy Voices."""
+"""Galaxy-specific updater in NVDA's shared globalPlugins namespace."""
 
 import base64
 import builtins

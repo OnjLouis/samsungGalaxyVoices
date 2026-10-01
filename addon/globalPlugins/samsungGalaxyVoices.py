@@ -19,7 +19,7 @@ from logHandler import log
 import nvwave
 import synthDriverHandler
 from synthDrivers._samsungGalaxyVoices import voiceStore
-from ._signedWebUpdater import SignedWebUpdater
+from ._samsungGalaxyUpdater import SignedWebUpdater
 import ui
 import wx
 

@@ -4,6 +4,10 @@ Samsung Galaxy Voices makes compatible Samsung speech voices available locally t
 
 Installed voices work offline. The manager supports compatible original-generation voices, newer Galaxy S24 premium voices, multiple selection, background downloading, removal, local samples, live voice refresh, package sizes, and a stable progress list. NVDA exposes voice, rate, pitch, volume, spelling, interruption and Say All support. Packages which cannot generate smooth live speech in real time are withheld while compatible alternatives remain available.
 
+## Updating Both Samsung Add-ons
+
+Galaxy versions before 1.1.5 and TV versions before 1.0.4 can check or install the wrong add-on when both are installed. Download the latest packages from [Galaxy Releases](https://github.com/OnjLouis/samsungGalaxyVoices/releases) and [TV Releases](https://github.com/OnjLouis/samsungTVVoices/releases), install both in NVDA's add-on manager, and restart NVDA. Installed voices and settings are preserved.
+
 ## Repository layout
 
 - `addon` contains the NVDA add-on.
