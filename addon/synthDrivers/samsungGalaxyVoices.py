@@ -15,6 +15,7 @@ import threading
 import time
 
 import config
+import addonHandler
 from logHandler import log
 import nvwave
 from synthDrivers._samsungGalaxyVoices import voiceStore
@@ -22,6 +23,7 @@ from speech.commands import IndexCommand, PitchCommand
 from synthDriverHandler import SynthDriver, VoiceInfo, synthDoneSpeaking, synthIndexReached
 
 _ = getattr(builtins, "_", lambda text: text)
+addonHandler.initTranslation()
 
 _HERE = os.path.dirname(__file__)
 _DATA_DIR = os.path.join(_HERE, "_samsungGalaxyVoices")

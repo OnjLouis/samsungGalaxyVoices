@@ -24,6 +24,7 @@ import ui
 import wx
 
 _ = getattr(builtins, "_", lambda text: text)
+addonHandler.initTranslation()
 
 _CATALOG_CODES = voiceStore.CATALOG_CODES
 _DOWNLOADABLE_CODES = voiceStore.DOWNLOADABLE_CODES
@@ -357,7 +358,7 @@ class SamsungGalaxyVoicesPanel(gui.settingsDialogs.SettingsPanel):
 		helper = gui.guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 		helper.addItem(wx.StaticText(
 			self,
-			label=_("No Samsung voices are included. Select one or more voices to download directly from Samsung. Restart NVDA after adding, updating, or removing voices."),
+			label=_("No Samsung voices are included. Select one or more voices to download directly from Samsung. Installed voices become available immediately."),
 		))
 		label = helper.addItem(wx.StaticText(self, label=_("&Available voices:")))
 		self.voiceList = helper.addItem(wx.ListCtrl(
@@ -622,7 +623,7 @@ class SamsungGalaxyVoicesPanel(gui.settingsDialogs.SettingsPanel):
 		if not codes:
 			return
 		answer = gui.messageBox(
-			_("Remove {count} selected voice(s)? They can be downloaded again later. Restart NVDA afterward.").format(count=len(codes)),
+			_("Remove {count} selected voice(s)? They can be downloaded again later.").format(count=len(codes)),
 			_("Remove Samsung voices"),
 			wx.YES_NO | wx.NO_DEFAULT | wx.ICON_WARNING,
 		)
@@ -720,8 +721,8 @@ class SamsungGalaxyVoicesPanel(gui.settingsDialogs.SettingsPanel):
 	def _openManual(self):
 		try:
 			addon = addonHandler.getCodeAddon()
-			manualPath = os.path.join(addon.path, "doc", "en", "readme.html")
-			if os.path.isfile(manualPath):
+			manualPath = addon.getDocFilePath()
+			if manualPath and os.path.isfile(manualPath):
 				os.startfile(manualPath)
 				return
 		except Exception:

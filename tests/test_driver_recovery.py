@@ -26,6 +26,7 @@ def load_driver():
 	class Notification:
 		def notify(self, **kwargs): pass
 	modules = {
+		"addonHandler": types.SimpleNamespace(initTranslation=lambda: None),
 		"config": types.SimpleNamespace(conf={"audio": {"outputDevice": "default"}}),
 		"logHandler": types.SimpleNamespace(log=types.SimpleNamespace(
 			debug=lambda *a, **k: None, debugWarning=lambda *a, **k: None,

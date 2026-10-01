@@ -23,6 +23,7 @@ import wx
 from synthDrivers._samsungGalaxyVoices import voiceStore
 
 _ = getattr(builtins, "_", lambda text: text)
+addonHandler.initTranslation()
 
 
 MANIFEST_URL = "https://github.com/OnjLouis/samsungGalaxyVoices/releases/latest/download/samsungGalaxyVoices-update.json"

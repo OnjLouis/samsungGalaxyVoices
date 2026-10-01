@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT / "addon"))
 
 for name in ("addonHandler", "core", "gui", "synthDriverHandler", "wx"):
 	sys.modules[name] = types.ModuleType(name)
+sys.modules["addonHandler"].initTranslation = lambda: None
 sys.modules["wx"].OK = 1
 sys.modules["wx"].ICON_INFORMATION = 2
 sys.modules["wx"].ICON_ERROR = 4

@@ -1,0 +1,389 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: SamsungGalaxyVoices 1.1.4\n"
+"Report-Msgid-Bugs-To: https://github.com/OnjLouis/samsungGalaxyVoices/issues\n"
+"POT-Creation-Date: 2026-09-26 12:18+0300\n"
+"PO-Revision-Date: 2026-10-01 22:34+0800\n"
+"Last-Translator: Alan <alanzhangmw@outlook.com>\n"
+"Language: zh_CN\n"
+"Language-Team: nvdacn.com\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: globalPlugins/_signedWebUpdater.py:110
+msgid "An update check is already running."
+msgstr "检查更新已在运行。"
+
+#: globalPlugins/_signedWebUpdater.py:110 globalPlugins/samsungGalaxyVoices.py:350
+#: synthDrivers/samsungGalaxyVoices.py:436
+msgid "Samsung Galaxy Voices"
+msgstr "三星 Galaxy 语音"
+
+#: globalPlugins/_signedWebUpdater.py:131
+msgid "Samsung Galaxy Voices is up to date."
+msgstr "三星 Galaxy 语音已是最新。"
+
+#: globalPlugins/_signedWebUpdater.py:131
+msgid "No update available"
+msgstr "无可用更新"
+
+#: globalPlugins/_signedWebUpdater.py:135
+msgid "Unable to check for updates right now."
+msgstr "现在无法检查更新。"
+
+#: globalPlugins/_signedWebUpdater.py:135
+msgid "Update check failed"
+msgstr "检查更新失败"
+
+#: globalPlugins/_signedWebUpdater.py:142
+#, python-brace-format
+msgid "Samsung Galaxy Voices {version} is available."
+msgstr "三星 Galaxy 语音 {version} 已可用。"
+
+#: globalPlugins/_signedWebUpdater.py:145
+msgid ""
+"\n"
+"\n"
+"Install it now? NVDA will restart after installation."
+msgstr ""
+"\n"
+"\n"
+"要现在安装吗？NVDA 将在安装后重新启动。"
+
+#: globalPlugins/_signedWebUpdater.py:146
+msgid "Update available"
+msgstr "更新可用"
+
+#: globalPlugins/_signedWebUpdater.py:177
+msgid "The update could not be downloaded or verified."
+msgstr "无法下载或验证更新。"
+
+#: globalPlugins/_signedWebUpdater.py:177 globalPlugins/_signedWebUpdater.py:207
+msgid "Update failed"
+msgstr "更新失败"
+
+#: globalPlugins/_signedWebUpdater.py:203
+msgid "The update is ready. NVDA will now restart."
+msgstr "更新已准备就绪。NVDA 现在将重新启动。"
+
+#: globalPlugins/_signedWebUpdater.py:203
+msgid "Update complete"
+msgstr "更新完成"
+
+#: globalPlugins/_signedWebUpdater.py:207
+msgid "The update could not be installed."
+msgstr "无法安装更新。"
+
+#: globalPlugins/samsungGalaxyVoices.py:33
+msgid "This is a sample of the selected Samsung Galaxy voice."
+msgstr "这是所选三星 Galaxy 语音的示例。"
+
+#: globalPlugins/samsungGalaxyVoices.py:252
+#, python-brace-format
+msgid "Preparing to download {count} selected voice(s)..."
+msgstr "正在准备下载选定的 {count} 个语音……"
+
+#: globalPlugins/samsungGalaxyVoices.py:253
+msgid "Preparing"
+msgstr "准备中"
+
+#: globalPlugins/samsungGalaxyVoices.py:271
+#, python-brace-format
+msgid ", {speed:.1f} MB/s"
+msgstr "，{speed:.1f} MB/s"
+
+#: globalPlugins/samsungGalaxyVoices.py:276
+#, python-brace-format
+msgid ""
+"Downloading {voice}, {position} of {count}: {percent}% ({received:.1f} of {total:.1f} "
+"MB){speed}"
+msgstr "正在下载 {voice}，第 {position}/{count} 个：{percent}%（已下载 {received:.1f}/{total:.1f} MB）{speed}"
+
+#: globalPlugins/samsungGalaxyVoices.py:283 globalPlugins/samsungGalaxyVoices.py:606
+msgid "Downloading"
+msgstr "正在下载"
+
+#: globalPlugins/samsungGalaxyVoices.py:284 globalPlugins/samsungGalaxyVoices.py:304
+#, python-brace-format
+msgid "{position} of {count}"
+msgstr "第 {position}/{count} 个"
+
+#: globalPlugins/samsungGalaxyVoices.py:285
+#, python-brace-format
+msgid "{percent}%"
+msgstr "{percent}%"
+
+#: globalPlugins/samsungGalaxyVoices.py:286
+#, python-brace-format
+msgid "{received:.1f} of {total:.1f} MB"
+msgstr "{received:.1f} / {total:.1f} MB"
+
+#: globalPlugins/samsungGalaxyVoices.py:297
+#, python-brace-format
+msgid "Contacting Samsung for {voice} ({position} of {count})..."
+msgstr "正在就 {voice}（第 {position}/{count} 个）联系三星……"
+
+#: globalPlugins/samsungGalaxyVoices.py:303
+msgid "Starting"
+msgstr "正在开始"
+
+#: globalPlugins/samsungGalaxyVoices.py:322
+#, python-brace-format
+msgid "Installed {installed} voice(s); {failed} failed."
+msgstr "已安装 {installed} 个语音；{failed} 个失败。"
+
+#: globalPlugins/samsungGalaxyVoices.py:326
+msgid "No voices were installed."
+msgstr "未安装任何语音。"
+
+#: globalPlugins/samsungGalaxyVoices.py:328
+#, python-brace-format
+msgid "Installed {count} voice(s). They are now available."
+msgstr "已安装 {count} 个语音。它们现已可用。"
+
+#: globalPlugins/samsungGalaxyVoices.py:330 globalPlugins/samsungGalaxyVoices.py:664
+#, python-brace-format
+msgid "{voice}: {error}"
+msgstr "{voice}：{error}"
+
+#: globalPlugins/samsungGalaxyVoices.py:360
+msgid ""
+"No Samsung voices are included. Select one or more voices to download directly from "
+"Samsung. Installed voices become available immediately."
+msgstr "未包含三星语音。请选择一个或多个语音直接从三星下载。安装的语音会立即可用。"
+
+#: globalPlugins/samsungGalaxyVoices.py:362
+msgid "&Available voices:"
+msgstr "可用语音(&A)："
+
+#: globalPlugins/samsungGalaxyVoices.py:367 globalPlugins/samsungGalaxyVoices.py:368
+msgid "Available voices"
+msgstr "可用语音"
+
+#: globalPlugins/samsungGalaxyVoices.py:369 globalPlugins/samsungGalaxyVoices.py:392
+msgid "Voice"
+msgstr "语音"
+
+#: globalPlugins/samsungGalaxyVoices.py:370
+msgid "Status"
+msgstr "状态"
+
+#: globalPlugins/samsungGalaxyVoices.py:371
+msgid "Size"
+msgstr "大小"
+
+#: globalPlugins/samsungGalaxyVoices.py:373
+msgid "&Download or update"
+msgstr "下载或更新(&D)"
+
+#: globalPlugins/samsungGalaxyVoices.py:374
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#: globalPlugins/samsungGalaxyVoices.py:375
+msgid "&Play sample"
+msgstr "播放示例(&P)"
+
+#: globalPlugins/samsungGalaxyVoices.py:376
+msgid "&Stop sample"
+msgstr "停止示例(&S)"
+
+#: globalPlugins/samsungGalaxyVoices.py:383
+msgid "Voice download progress"
+msgstr "语音下载进度"
+
+#: globalPlugins/samsungGalaxyVoices.py:384
+msgid "Download status:"
+msgstr "下载状态："
+
+#: globalPlugins/samsungGalaxyVoices.py:386 globalPlugins/samsungGalaxyVoices.py:387
+msgid "Download status"
+msgstr "下载状态"
+
+#: globalPlugins/samsungGalaxyVoices.py:388
+msgid "Detail"
+msgstr "详细信息"
+
+#: globalPlugins/samsungGalaxyVoices.py:389
+msgid "Value"
+msgstr "值"
+
+#: globalPlugins/samsungGalaxyVoices.py:393
+msgid "Stage"
+msgstr "阶段"
+
+#: globalPlugins/samsungGalaxyVoices.py:394
+msgid "Item"
+msgstr "项目"
+
+#: globalPlugins/samsungGalaxyVoices.py:395
+msgid "Progress"
+msgstr "进度"
+
+#: globalPlugins/samsungGalaxyVoices.py:396
+msgid "Downloaded"
+msgstr "已下载"
+
+#: globalPlugins/samsungGalaxyVoices.py:397
+msgid "Speed"
+msgstr "速度"
+
+#: globalPlugins/samsungGalaxyVoices.py:398
+msgid "Result"
+msgstr "结果"
+
+#: globalPlugins/samsungGalaxyVoices.py:404
+msgid "Playback &buffering (milliseconds):"
+msgstr "播放缓冲（毫秒）(&B)："
+
+#: globalPlugins/samsungGalaxyVoices.py:410
+msgid "Playback buffering in milliseconds"
+msgstr "播放缓冲（毫秒）"
+
+#: globalPlugins/samsungGalaxyVoices.py:413
+msgid "Check for add-on &updates:"
+msgstr "检查插件更新(&U)："
+
+#: globalPlugins/samsungGalaxyVoices.py:414
+msgid "Never"
+msgstr "从不"
+
+#: globalPlugins/samsungGalaxyVoices.py:414
+msgid "Hourly"
+msgstr "每小时"
+
+#: globalPlugins/samsungGalaxyVoices.py:414
+msgid "Daily"
+msgstr "每天"
+
+#: globalPlugins/samsungGalaxyVoices.py:417
+msgid "Check &Now"
+msgstr "立即检查(&N)"
+
+#: globalPlugins/samsungGalaxyVoices.py:422
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: globalPlugins/samsungGalaxyVoices.py:467 globalPlugins/samsungGalaxyVoices.py:540
+#, python-brace-format
+msgid "{size:.1f} MB"
+msgstr "{size:.1f} MB"
+
+#: globalPlugins/samsungGalaxyVoices.py:468
+msgid "Checking..."
+msgstr "正在检查……"
+
+#: globalPlugins/samsungGalaxyVoices.py:485
+msgid "Installed; legacy quality"
+msgstr "已安装；传统音质"
+
+#: globalPlugins/samsungGalaxyVoices.py:487
+msgid "Installed; compact"
+msgstr "已安装；精简版"
+
+#: globalPlugins/samsungGalaxyVoices.py:487
+msgid "Installed"
+msgstr "已安装"
+
+#: globalPlugins/samsungGalaxyVoices.py:488
+msgid "Available; compact"
+msgstr "可用；精简版"
+
+#: globalPlugins/samsungGalaxyVoices.py:488
+msgid "Available"
+msgstr "可用"
+
+#: globalPlugins/samsungGalaxyVoices.py:548
+msgid "Unknown"
+msgstr "未知"
+
+#: globalPlugins/samsungGalaxyVoices.py:587
+msgid ""
+"Samsung voice data and its matching speech engine will be downloaded directly from "
+"Samsung and stored in your NVDA user-data folder. Samsung owns these components, and "
+"this unofficial add-on is not affiliated with or endorsed by Samsung. Continue?"
+msgstr "三星语音数据及其匹配的语音引擎将直接从三星下载并存储在你的 NVDA 用户数据文件夹中。这些组件归三星所有，此非官方插件不隶属于三星，也未获得三星认可。是否继续？"
+
+#: globalPlugins/samsungGalaxyVoices.py:588
+msgid "Download Samsung voice"
+msgstr "下载三星语音"
+
+#: globalPlugins/samsungGalaxyVoices.py:625
+#, python-brace-format
+msgid "Remove {count} selected voice(s)? They can be downloaded again later."
+msgstr "删除所选的 {count} 个语音？它们之后可以重新下载。"
+
+#: globalPlugins/samsungGalaxyVoices.py:626
+msgid "Remove Samsung voices"
+msgstr "移除三星语音"
+
+#: globalPlugins/samsungGalaxyVoices.py:639
+msgid ""
+"The active voice is the only installed Samsung voice. Install another voice or switch "
+"to another synthesizer before removing it."
+msgstr "当前语音是唯一安装的三星语音。在删除它之前，请先安装另一个语音或切换到其他合成器。"
+
+#: globalPlugins/samsungGalaxyVoices.py:645
+msgid "The active voice could not be changed safely, so no voices were removed."
+msgstr "无法安全更改当前语音，因此未删除任何语音。"
+
+#: globalPlugins/samsungGalaxyVoices.py:659
+#, python-brace-format
+msgid ""
+"Removed {removed} voice(s); {failed} could not be removed. Switch away from Samsung "
+"Galaxy Voices, restart NVDA, and try the failed items again."
+msgstr "已移除 {removed} 个语音；有 {failed} 个无法移除。请切换至三星 Galaxy Voices 以外的其他语音、重启 NVDA，然后重试失败的项目。"
+
+#: globalPlugins/samsungGalaxyVoices.py:669
+#, python-brace-format
+msgid "Removed {count} voice(s)."
+msgstr "已移除 {count} 个语音。"
+
+#: globalPlugins/samsungGalaxyVoices.py:671
+#, python-brace-format
+msgid "Samsung is now using {voice}."
+msgstr "三星现在正在使用 {voice}。"
+
+#: globalPlugins/samsungGalaxyVoices.py:685
+#, python-brace-format
+msgid "Preparing a sample of {voice}..."
+msgstr "正在准备 {voice} 的示例……"
+
+#: globalPlugins/samsungGalaxyVoices.py:690
+msgid "Voice sample stopped."
+msgstr "语音示例已停止。"
+
+#: globalPlugins/samsungGalaxyVoices.py:696
+#, python-brace-format
+msgid "The voice sample could not be played: {error}"
+msgstr "无法播放语音示例：{error}"
+
+#: globalPlugins/samsungGalaxyVoices.py:697
+msgid "The voice sample could not be played."
+msgstr "无法播放语音示例。"
+
+#: globalPlugins/samsungGalaxyVoices.py:699
+msgid "Voice sample finished."
+msgstr "语音示例已完成。"
+
+#: globalPlugins/samsungGalaxyVoices.py:703
+msgid "The add-on updater is not available."
+msgstr "插件更新程序不可用。"
+
+#: globalPlugins/samsungGalaxyVoices.py:729
+msgid "The Samsung Galaxy Voices manual is not available."
+msgstr "三星 Galaxy 语音手册不可用。"
+
+#: globalPlugins/samsungGalaxyVoices.py:770
+msgid ""
+"Samsung Galaxy Voices does not include proprietary Samsung voice files. Open its "
+"settings panel now to choose at least one voice to download directly from Samsung?"
+msgstr "三星 Galaxy Voices 插件不包含专有的三星语音文件。现在打开其设置面板，以便选择至少一个直接从三星下载的语音吗？"
+
+#: globalPlugins/samsungGalaxyVoices.py:771
+msgid "Choose a Samsung voice"
+msgstr "选择三星语音"

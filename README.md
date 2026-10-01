@@ -17,3 +17,5 @@ This independent project is not affiliated with or endorsed by Samsung. Samsung 
 The compatibility host is based on [RNIDBG](https://github.com/zhkl0228/rnidbg) under Apache License 2.0. ARM64 translation uses [Dynarmic](https://github.com/merryhime/dynarmic). Third-party licence texts are included in the add-on.
 
 See the [add-on manual](addon/doc/en/readme.html) for installation, controls and the complete changelog.
+
+Simplified Chinese interface and [manual](addon/doc/zh_CN/readme.html) translations are contributed by [Alan86024](https://github.com/Alan86024), through [Pull Request 9](https://github.com/OnjLouis/samsungGalaxyVoices/pull/9).

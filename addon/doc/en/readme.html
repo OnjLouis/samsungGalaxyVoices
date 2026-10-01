@@ -39,6 +39,13 @@
 <p>The Samsung Galaxy Voices panel contains a Check for add-on updates setting with Never, Hourly, and Daily choices. Daily is the default for new installations. Check Now performs an immediate manual check. Update files and their manifests must pass cryptographic signature, package identity, version, size, and SHA-256 checks before NVDA will install them.</p>
 <p>This schedule controls add-on updates. Voice packages are updated only when the user selects Download or update in the voice manager.</p>
 
+<h2>Changes in 1.1.4</h2>
+<ul>
+<li>Added Simplified Chinese interface and manual translations, contributed by Alan86024. Merged Pull Request <a href="https://github.com/OnjLouis/samsungGalaxyVoices/pull/9">9</a>.</li>
+<li>Made the voice manager, synthesizer and updater load the add-on's translations, and made Help open the manual in NVDA's selected language with English as a fallback.</li>
+<li>Removed outdated instructions to restart NVDA after adding or removing voices; the voice list updates immediately.</li>
+</ul>
+
 <h2>Changes in 1.1.3</h2>
 <ul>
 <li>Reduced the work needed to cancel interrupted characters in compatible premium engines, helping warm helpers remain available during rapid typing and navigation.</li>
@@ -83,6 +90,7 @@
 <h2>Credits and Licences</h2>
 <ul>
 <li>Created and maintained by Andre Louis.</li>
+<li>Simplified Chinese translation by <a href="https://github.com/Alan86024">Alan86024</a>.</li>
 <li>The compatibility host is based on <a href="https://github.com/zhkl0228/rnidbg">RNIDBG</a>, licensed under Apache License 2.0.</li>
 <li>ARM64 translation uses <a href="https://github.com/merryhime/dynarmic">Dynarmic</a>, distributed under its ISC-style licence.</li>
 <li>Windows runtime components come from <a href="https://github.com/mstorsjo/llvm-mingw">LLVM-MinGW</a>. Full third-party licence texts are included with the add-on.</li>
